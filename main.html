@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basty bet</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/main_pictures/favicon-logo.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="main.html">
+    <img src="images/main_pictures/logo-img.jpg" width="70px"  class="d-inline-block align-top" style="border-radius: 15%;">
+  </a>
+    <form class="form-inline" style="margin-left: 100px;">
+      <input class="form-control mr-sm-2" type="search" placeholder="Izdeu" aria-label="Search">
+
+    </form>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="mr-auto"></div>
+      <ul class="navbar-nav my-2 my-lg-0">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="#about">Biz týraly</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="booking.html">Brondau </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="menu.html">Mazir</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="#Contacts">Bızben bailanys </a>
+        </li>
+      </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="register.html">Tırkelu</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="login.html">Kirý</a>
+        </li>
+
+      </ul>
+
+      </div>
+  </nav>
+  </header>
+  
+    <div id="fone-photo" onmouseover="playAudio()" onmouseout="pauseAudio()">
+      <div class="content">
+        <h1>Kozy-Korpesh and Bayan-Sulu</h1>
+    </div>
+    
+
+<audio id="myAudio" src="Кюй Адай- Курмангазы.mp3"></audio>
+
+<script>
+  var audio = document.getElementById("myAudio");
+
+  function playAudio() {
+    audio.play();
+  }
+
+  function pauseAudio() {
+    audio.pause();
+    audio.currentTime = 0;
+  }
+</script>
+
+     
+     <b><p style="opacity: 0.7;">As tūrğan jerde auru tūrmaidy.</p></b>
+   </div>
+   <section id="about">
+    <div class="about-wrapper container">
+      <div class="row">
+        <div class="about-text col">
+          <p class="small">Biz týraly</p>
+          <h2>Qazaq ulttyq kafesine qosh keldińiz!</h2>
+          <p>
+            Biz Sizge bizdiń baı mádenıetimiz ben dástúrlerimizdi taǵamdar men qyzmet kórsetý arqyly usynýdy maqtan tutamyz.
+            <strong><em>Bizdiń kafe</em></strong> tereń tarıhı tamyrlarǵa negizdelgen jáne Biz óz jumysymyzdyń barlyq aspektilerinde dástúrlerimizdi saqtaýǵa tyrysamyz.
+          </p>
+          <a class="nav-link" href="aboutus.html">Jobany ázirleýshiler týraly</a>
+          <br>
+          <hr color="red">
+        </div>
+  
+        <div class="about-img col">
+          <img src="images/main_pictures/dastarhan.jpg" alt="food" />
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <script>
+  
+    const aboutImg = document.querySelector('.about-img');
+    const aboutText = document.querySelector('.about-text');
+  
+  
+    function startAnimation() {
+      aboutImg.classList.add('animate');
+      aboutText.classList.add('animate');
+    }
+  
+  
+    window.addEventListener('load', startAnimation);
+  </script>
+  
+  
+  <div style="text-align: center;"><h1>Bizdiń ınterer</h1></div>
+  <section class="gallery">
+    <div class="container-fluid">
+    
+      <div class="gallery">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <img src="images/main_pictures/photorestoran1.png">
+          </div>
+          
+          <div class="col-sm-6 col-md-4">
+            <img src="images/main_pictures/photorestoran2.png">
+          </div>
+          
+          <div class="col-sm-6 col-md-4">
+            <img src="images/main_pictures/photorestoran3.png">
+          </div>
+          
+          <div class="col-sm-6 col-md-4">
+            <img src="images/main_pictures/photorestoran4.png">
+          </div>
+          
+          <div class="col-sm-6 col-md-4">
+            <img src="images/main_pictures/photorestoran5.png">
+          </div>
+          
+          <div class="col-sm-6 col-md-4">
+            <img src="images/main_pictures/photorestoran6.png">
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+  </section>
+  <br>
+  <br>
+  <div style="text-align: center;"><h1>Bizdin qysqasha mazir</h1></div>
+  <section class=" container-fluid">
+    <table class="table table-bordered">
+      <thead class="thead-dark">
+      <tr>
+        <th>Tagam</th>
+        <th>Syppatama</th>
+        <th>Bagasy</th>
+      </tr>
+    </thead>
+ <tbody>
+  <tr>
+    <td>Baýr jiger</td>
+    <td>Kúnjit pen kókónister qosylǵan qozynyń baýyry</td>
+    <td>3590 teńge</td>
+  </tr>
+  <tr>
+    <td>Beshbarmaq</td>
+    <td>Beshbarmaq qaınatylǵan jylqy etinen</td>
+    <td>6990 teńge</td>
+  </tr>
+  <tr>
+    <td>Beshbarmaq assortı</td>
+    <td>Qoı eti, jylqy eti</td>
+    <td>6990 teńge</td>
+  </tr>
+  <tr>
+    <td>Beshbarmaq balyqpen</td>
+    <td>Bekire etinen jasalǵan besbarmaq</td>
+    <td>8890 teńge</td>
+  </tr>
+  <tr>
+    <td>Han qarta</td>
+    <td>Aq júgeri men kremdi qysha soýsymen.</td>
+    <td>5590 teńge</td>
+  </tr>
+  <tr>
+    <td>Baýyrsaq bal-qaımaqpen</td>
+    <td></td>
+    <td>1690 teńge</td>
+  </tr>
+  <tr>
+    <td>Kattama nan</td>
+    <td>Irimshik qosylǵan Tortılla. Kaımakpen birge beriledi</td>
+    <td>1990 teńge</td>
+  </tr>
+  <tr>
+    <td>Qymyz</td>
+    <td>1 lıtr</td>
+    <td>3490 teńge</td>
+  </tr>
+  <tr>
+    <td>Jylqy Sorpasy</td>
+    <td>Baýyrsaq pen sýzbemen</td>
+    <td>3990 teńge</td>
+  </tr>
+  <tr>
+    <td>Arpa koje</td>
+    <td>Jaia, bidai, suzbe, bulön</td>
+    <td>2990 teńge</td>
+  </tr>
+  <tr>
+    <td>Jilik maı</td>
+    <td>Pisirilgen qant súıegi. Salsa jáne Sýzbe soýstarymen birge beriledi</td>
+    <td>4190 teńge</td>
+  </tr>
+  <tr>
+    <td>Qaryn qýyrdaq</td>
+    <td>Qýyrýǵa arnalǵan tabada kókónistermen qýyrylǵan qymyz qosylǵan Trebýha.</td>
+    <td>4390 teńge</td>
+  </tr>
+</tbody>
+</table>
+</section>
+<div class="text-center">
+  <a  href="menu.html" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Mazir</a>
+
+</div>
+
+
+
+<section id="testimonials">
+  <h2 class="testimonial-title">Biz týraly ne oılaıdy</h2>
+
+  <div class="testimonial-container container">
+    <div class="row">
+    <div class="testimonial-box col-4">
+      <div class="customer-detail">
+        <div class="customer-photo">
+          <img src="https://tengrinews.kz/userdata/news/2023/news_496901/resize/photo_428192.jpeg" alt="" />
+          <p class="customer-name">Kassym-Jomart Tokaev</p>
+        </div>
+      </div>
+      <div class="star-rating">
+        <img src="https://www.pngall.com/wp-content/uploads/4/5-Star-PNG.png" alt="" />
+      </div>
+      <p class="testimonial-text">
+        Men Qazaq ulttyq kafesine qatty qýandym! Taǵam dámdi jáne balǵyn boldy.</p>
+     
+    </div>
+    <div class="testimonial-box col-4">
+      <div class="customer-detail">
+        <div class="customer-photo">
+          <img
+            src="https://i.pinimg.com/originals/86/76/e4/8676e46f1a4cc22ac01e1431bd8fd955.jpg"
+            alt=""
+          />
+          <p class="customer-name">Symbat-Aitzhan Halelova</p>
+        </div>
+      </div>
+      <div class="star-rating">
+        <img src="https://www.pngall.com/wp-content/uploads/4/5-Star-PNG.png" alt="" />
+      </div>
+      <p class="testimonial-text">
+        Umytylmas tájirıbe! Tamasha as úı jáne kafe ıntereri.
+      </p>
+     
+    </div>
+    <div class="testimonial-box col-4">
+      <div class="customer-detail">
+        <div class="customer-photo">
+          <img src="https://www.followlyrics.com/storage/127/1269353.jpg" alt="" />
+          <p class="customer-name">Kairat-Orintaiuly Nurtas</p>
+        </div>
+      </div>
+      <div class="star-rating">
+        <img src="https://www.pngall.com/wp-content/uploads/4/5-Star-PNG.png" alt="" />
+      </div>
+      <p class="testimonial-text">
+        Men tamaq pen qyzmetke qatty qýandym! Men mindetti túrde usynamyn!
+      </p>
+     
+    </div>
+  </div>
+  </div>
+</section>
+
+<footer class="container-fluid">
+  
+    <div class="row">
+      <div class="col-4">
+        <img src="images/main_pictures/logo-img.jpg" alt="Kyz-Zhibek" style="width: 100%; height: 100%;">
+      </div>
+      <div class="col-4">
+        <h3 id="Contacts">Bizben baılanys</h3>
+      <p>64/A Mangilik El<br>Astana, Kazakhstan </p>
+      <p>Baılanys nomyry: (123) 456-7890<br>Email: info@cafewebsite.com</p>
+      </div>
+      <div class="col-4">
+        <h3>Bizdi áleýmettik jelilerden qarańyz</h3>
+      <p>
+        <a href="https://www.facebook.com/CAFE/">Facebook</a> 
+        </p>
+        <p>
+        <a href="https://www.instagram.com/grillbar.saryarqa/">Instagram</a> 
+        </p>
+        <p>            
+        <a href="https://twitter.com/riotgames">Twitter</a>
+      </p>
+      </div>
+    </div>
+  </div>
+<div class="copyright" style="width: 100%;">
+  <p style="width:100% ; margin-top: 15px; text-align: right;">&copy;  2023 "Kyz Jibek" Kafesi. &#169; Barlyq quqyqtar qorǵalǵan.</p>
+</div>
+</div>
+
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  body{
+    margin: 0;
+    background-color:  #f5f5f7;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .navbar.bg-light {
+    background-color: #f3e2b3 !important;
+  }
+  .navbar.bg-light .form-control {
+    border-radius: 4.25rem;
+  }
+  
+  .navbar-nav {
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  
+  .nav-link {
+    transition: all 0.2s;
+  }
+  .nav-link:hover {
+    font-size: 22px;
+    text-decoration: underline;
+    border-bottom: 2px solid #fff;
+  }
+       .box {
+        display: grid;
+        height: 500px;
+        grid-gap: 10px; 
+        border: 4px solid black;
+      
+      }
+      #cardContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 -10px; 
+      }
+  
+      .card {
+        flex: 0 0 calc(25% - 20px); 
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+      }
+  
+      @media (max-width: 768px) {
+        
+        .card {
+          flex: 0 0 100%; 
+        }
+      }
+  
+      .show {
+        display: block;
+      }
+      #objectDescription1 .object-card {
+        background-color: lightblue;
+      }
+  
+      #objectDescription2 .object-card {
+        background-color: lightgreen;
+      }
+  
+      #objectDescription3 .object-card {
+        background-color: lightpink;
+      }
+  
+      #objectDescription4 .object-card {
+        background-color: lightyellow;
+      }
+  
+      .card-body {
+        background-color: lightyellow;
+      }
+      
+  footer{
+      background-color: rgb(249,244,215);
+      margin: 0px;
+      padding: 15px;
+  }
